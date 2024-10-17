@@ -68,7 +68,9 @@ const randomNumber = Math.random (10)
 
 // Print the generated random number
 
-console.log(`${Math.floor(randomNumber*10)}`)
+console.log(randomNumber)
+
+console.log(`${Math.floor(randomNumber*10) + 1}`)
 
 /*******************************************
     Iteration 3.1 | Booleans
